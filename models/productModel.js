@@ -5,7 +5,7 @@ const productSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    discription: {
+    description: {
         type: String,
         required: true
     },
@@ -22,7 +22,7 @@ const productSchema = new mongoose.Schema({
         required: true
     },
     subCategory: {
-        type: Number,
+        type: String,
         required: true
     }, 
     sizes: {
